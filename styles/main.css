@@ -35,6 +35,7 @@ body, html{
   .pimg3{
     background-image:url('../img/bkimg3.jpg');
     min-height:400px;
+
   }
 
   .imgBlock{
@@ -52,6 +53,8 @@ body, html{
   .section-light{
     background-color:#f4f4f4;
     color:#666;
+    font-size: 20px;
+    line-height: 35px;
   }
   
   .section-dark{
@@ -82,10 +85,60 @@ body, html{
   .ptext .border.trans{
     background-color:transparent;
   }
+
+  .purpose{
+     display: flex;
+     flex-direction: column;
+     font-size: 19px;
+     letter-spacing: 1px;
+     width: 177px;
+     text-align: center;
+     margin-top: 5%;
+     color:white;
+     text-transform: uppercase;
+
+  }
+  .purpose span{
+    font-weight: 900;
+  }
+
+  .purposeSection{
+    display: flex;
+    justify-content: space-around;
+  }
+
+
+  .purpose img{
+    height: 110px;
+    opacity: 100;
+  }
+  #imgComunication{
+    width: 165px;
+    padding-left: 29px;
+  }
+  #collaborateDiv{
+    width: 184px;
+  }
+  #collaborateDiv img{
+    width: 149px;
+    padding-left: 17px;
+  }
+  #imgCivic img{
+    padding-left: 21px;
+    width: 133px;
+  }
+
+  
+
+
   
   @media(max-width:568px){
     .pimg1, .pimg2, .pimg3{
       background-attachment:scroll;
+    }
+
+    .purposeSection{
+      flex-direction: column;
     }
   }
 
