@@ -49,6 +49,10 @@ html {
   width: 100%;
   text-align: center;
 }
+.imgBlock img {
+  width: 160px;
+  height: 160px;
+}
 
 .section {
   text-align: center;
@@ -80,6 +84,9 @@ html {
 }
 .ptext p {
   padding-top: 3%;
+}
+#logoText {
+  line-height: 1.5;
 }
 
 .ptext .border {
