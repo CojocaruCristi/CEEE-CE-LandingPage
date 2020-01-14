@@ -137,9 +137,6 @@ html {
   width: 133px;
 }
 /* members cards-------------------------------- */
-.card-container{
-  
-}
 .members-card{
   display: flex;
   flex-direction: column;
@@ -156,6 +153,7 @@ html {
 .members-card img{
   width: 150px !important;
   height: 150px !important;
+  padding-top: 10px;
   border-radius: 50%;
 }
 
