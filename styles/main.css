@@ -57,11 +57,23 @@ html {
   top: 24%;
   width: 100%;
   text-align: center;
+  animation: logoMove 2.5s;
 }
 .imgBlock img {
   width: 160px;
   height: 160px;
 }
+@keyframes logoMove{
+  from{
+    top:5%;
+    opacity: 0.1; 
+  }
+  to{
+    top:24%;
+    opacity: 1;
+  }
+}
+
 
 .section {
   text-align: center;
@@ -287,7 +299,7 @@ footer {
   color: #ff6348;
   transform: scale(1.6);
 }
-.card p {
+.card p{
   margin-top: 20px;
   font-weight: 300;
   letter-spacing: 2px;
@@ -295,8 +307,21 @@ footer {
   opacity: 0;
   transition: 0.3s linear;
 }
+.card a{
+  margin-top: 20px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  max-height: 0;
+  opacity: 0;
+  transition: 0.3s linear;
+  color: #ff6348;
+}
 
-.card:hover p {
+.card:hover p{
+  max-height: 40px;
+  opacity: 1;
+}
+.card:hover a{
   max-height: 40px;
   opacity: 1;
 }
