@@ -7,6 +7,11 @@ html {
   font-weight: 400;
   line-height: 1.8em;
   color: #666;
+  
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 .no-js #loader { display: none;  }
@@ -75,6 +80,7 @@ html {
 }
 
 
+
 .section {
   text-align: center;
   padding: 50px 80px;
@@ -96,7 +102,7 @@ html {
 .ptext {
   position: absolute;
   top: 50%;
-  width: 100%;
+  /* width: 100%; */
   text-align: center;
   color: #000;
   font-size: 27px;
@@ -118,6 +124,20 @@ html {
 
 .ptext .border.trans {
   background-color: transparent;
+}
+.ptext{
+  animation: textMove 2.5s;
+}
+@keyframes textMove{
+  from{
+    left: 4%;
+    opacity: 0.1;
+    
+  }
+  to{
+    left: 36.9%;
+    opacity: 1;
+  }
 }
 
 .purpose {
