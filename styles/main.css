@@ -102,7 +102,6 @@ html {
 .ptext {
   position: absolute;
   top: 50%;
-  /* width: 100%; */
   text-align: center;
   color: #000;
   font-size: 27px;
@@ -136,6 +135,7 @@ html {
   }
   to{
     left: 36.9%;
+    text-align: center;
     opacity: 1;
   }
 }
@@ -370,6 +370,34 @@ footer {
   }
   footer{
     flex-direction: column;
+  }
+}
+@media (max-width:465px){
+  .border{
+    font-size: 11px;
+  }
+  .ptext{
+    animation: none;
+  }
+  .imgBlock{
+    top: 20%;
+  }
+  @keyframes logoMove {
+    from{
+      top:5%;
+      opacity: 0.1; 
+    }
+    to{
+      top:20%;
+      opacity: 1;
+    }
+  }
+  .members-card{
+    margin-left: 40px;
+
+  }
+  .card a{
+    font-size: 13px;
   }
 }
 
