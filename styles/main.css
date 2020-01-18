@@ -376,9 +376,6 @@ footer {
   .border{
     font-size: 11px;
   }
-  .ptext{
-    animation: none;
-  }
   .imgBlock{
     top: 20%;
   }
@@ -398,6 +395,12 @@ footer {
   }
   .card a{
     font-size: 13px;
+  }
+}
+@media (max-width:1834px){
+  .ptext{
+    animation: none;
+
   }
 }
 
