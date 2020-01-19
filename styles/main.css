@@ -201,6 +201,10 @@ html {
   padding-top: 10px;
   border-radius: 50%;
 }
+.members-card h1{
+  font-size: 25px;
+  
+}
 
 .members-card hr{
   width:200px;

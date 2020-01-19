@@ -38,7 +38,24 @@ $(document).ready(function(){
       },
       1000:{
           items:4
+      },
+      1080:{
+        items:2
+      },
+      1360:{
+        items:3
+      },
+      1440:{
+        items:3
+      },
+      1680:{
+        items:3 
+      },
+      1920:{
+        items:4
       }
+
+
   }
   });
 });
